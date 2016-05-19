@@ -36,17 +36,17 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 
                 <ul class="nav navbar-nav navbar-right">
-                    <li ><a href="Default.aspx"><!-- i.fa.fa-home.fa-lg -->
+                   <li id="home" runat="server" ><a href="Default.aspx">
+                            <!-- i.fa.fa-home.fa-lg -->
                         <i class="fa fa-home fa-lg"></i> Home</a></li>
-                    <li><a href="Products.aspx">
+                    <li id="products" runat="server"><a href="Products.aspx">
                         <i class="fa fa-th fa-lg"></i> Products</a></li>
-                    <li><a href="Services.aspx">
-                        <i class="fa fa-gear fa-lg"></i> Service</a></li>
-                    <li><a href="About.aspx">
+                    <liv id="services" runat="server"><a href="Services.aspx">
+                        <i class="fa fa-gear fa-lg"></i> Service</a></liv>
+                    <li id="about" runat="server"><a href="About.aspx">
                         <i class="fa fa-info fa-lg"></i> About Us</a></li>
-                    <li><a href="Contact.aspx">
+                    <li id="contact" runat="server"><a href="Contact.aspx">
                         <i class="fa fa-phone fa-lg"></i> Contact Us</a></li>
-                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
