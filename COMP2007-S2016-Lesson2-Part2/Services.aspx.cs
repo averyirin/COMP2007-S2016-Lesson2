@@ -6,9 +6,9 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace COMP2007_S2016_Lesson2_Part2 {
-    public partial class Site : System.Web.UI.MasterPage {
+    public partial class Services : System.Web.UI.Page {
         protected void Page_Load(object sender, EventArgs e) {
-            Console.WriteLine("Master!");
+
         }
     }
 }

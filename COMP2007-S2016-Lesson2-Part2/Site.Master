@@ -17,7 +17,9 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body  runat="server">
+<body>
+    <form id="webForm" runat="server">
+    
     <nav class="navbar navbar-inverse" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -34,7 +36,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="Default.aspx"><!-- i.fa.fa-home.fa-lg -->
+                    <li ><a href="Default.aspx"><!-- i.fa.fa-home.fa-lg -->
                         <i class="fa fa-home fa-lg"></i> Home</a></li>
                     <li><a href="Products.aspx">
                         <i class="fa fa-th fa-lg"></i> Products</a></li>
@@ -51,7 +53,7 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <form id="form1" runat="server">
+
     <div>
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         
